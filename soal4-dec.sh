@@ -14,4 +14,4 @@ do
 done
 IFS=
 
-cat $1 | tr `echo ${arr[$hour]}`-za-`echo ${arr[$((hour-1))]}` a-z | tr `echo ${arrr[$hour]}`-ZA-`echo ${arrr[$hour]}` A-Z > ~/sisop/modul1/soalshift/dec-$1
+cat $1 | tr `echo ${arr[$hour]}`-za-`echo ${arr[$((hour-1))]}` a-z | tr `echo ${arrr[$hour]}`-ZA-`echo ${arrr[$hour]}` A-Z > ~/sisop/modul1/soalshift/$1.log
