@@ -33,7 +33,7 @@ File sebelum di encrypt di hapus
 
 Untuk mengatur cron agar sesuai dengan perintah maka diatur seperti dibawah ini :
 
-![1.7.png](img/1.7.png)
+14 14 14 2 5
 
 - - - -
 
