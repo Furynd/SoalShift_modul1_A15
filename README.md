@@ -6,7 +6,7 @@ file tersebut jika pukul 14:14 pada tanggal 14 Februari atau hari tersebut adala
 jumat pada bulan Februari.
 
 Untuk menjawabnya pertama – tama yang diperlukan adalah extract nature.zip terlebih dahulu
-
+![1.png](src/1.png)
 Lakukan perulangan untuk setiap file yang ada di dalam folder nature yang sudah di extract
 
 Untuk setiap file akan di tampung di variabel i, nantinya file akan di decode dengan base64 terlebih dahulu
@@ -106,6 +106,8 @@ karena nama file mengandung karakter " " (spasi), variabel IFS (Internal Field S
 untuk dekripsi jam sebagai decrypt-key didapatkan dari nama file
 
 untuk dekripsinya cukup membalik argumen pada tr di kode enkripsinya
+
+script enkripsi dijalankan tiap jam dengan crontab @hourly atau 0 * * * * *
 
 5. Buatlah sebuah script bash untuk menyimpan record dalam syslog yang memenuhi
 kriteria berikut:
