@@ -6,7 +6,7 @@ file tersebut jika pukul 14:14 pada tanggal 14 Februari atau hari tersebut adala
 jumat pada bulan Februari.
 
 Untuk menjawabnya pertama – tama yang diperlukan adalah extract nature.zip terlebih dahulu
-![1.png](src/1.png)
+![1.png](img/1.png)
 Lakukan perulangan untuk setiap file yang ada di dalam folder nature yang sudah di extract
 
 Untuk setiap file akan di tampung di variabel i, nantinya file akan di decode dengan base64 terlebih dahulu
