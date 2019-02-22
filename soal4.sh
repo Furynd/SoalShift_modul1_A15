@@ -16,4 +16,4 @@ do
 done
 IFS=
 
-cat /var/log/syslog | tr a-z `echo ${arr[$hour]}`-za-`echo ${arr[$hour]}` | tr A-Z `echo ${arrr[$hour]}`-ZA-`echo ${arrr[$hour]}`  > ~/sisop/modul1/`date +"%H:%M %d-%m-%Y"`.log
+cat /var/log/syslog | tr a-z `echo ${arr[$hour]}`-za-`echo ${arr[$hour]}` | tr A-Z `echo ${arrr[$hour]}`-ZA-`echo ${arrr[$hour]}`  > ~/modul1/`date +"%H:%M %d-%m-%Y"`.log

@@ -16,6 +16,7 @@ END {
 
 echo "Negara dengan penjualan terbanyak 2012:"
 echo $country
+
 awk -v var="$country" 'BEGIN {FS=","}
 NR != 1  {
 	if($7==2012 && $1==var){
@@ -31,6 +32,8 @@ do
 	pline[$i]=`cat 2.txt | awk NR==$((i+1))`
 	echo "-"${pline[$i]}
 done 
+
+rm 2.txt
 
 echo "3 product yang menberikan penjualan terbanyak:"
 awk -v country="$country" -v p1="${pline[0]}" -v p2="${pline[0]}" -v p3="${pline[0]}" 'BEGIN{FS=","}
