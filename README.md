@@ -6,19 +6,34 @@ file tersebut jika pukul 14:14 pada tanggal 14 Februari atau hari tersebut adala
 jumat pada bulan Februari.
 
 Untuk menjawabnya pertama – tama yang diperlukan adalah extract nature.zip terlebih dahulu
+
 ![1.png](img/1.png)
+
 Lakukan perulangan untuk setiap file yang ada di dalam folder nature yang sudah di extract
+
+![1.2.png](img/1.2.png)
 
 Untuk setiap file akan di tampung di variabel i, nantinya file akan di decode dengan base64 terlebih dahulu
 
+![1.3.png](img/1.3.png)
+
 Kemudian hasilnya akan di decode reverse dengan hexdump
+
+![1.4.png](img/1.4.png)
 
 Hasil file yang telah terencrypt akan disimpan pada folder nature dengan format hasil[urutan].jpg
 
+![1.5.png](img/1.5.png)
+
 File sebelum di encrypt di hapus
+
+![1.6.png](img/1.6.png)
 
 Untuk mengatur cron agar sesuai dengan perintah maka diatur seperti dibawah ini :
 
+![1.7.png](img/1.7.png)
+
+- - - -
 
 2. Anda merupakan pegawai magang pada sebuah perusahaan retail, dan anda diminta
 untuk memberikan laporan berdasarkan file WA_Sales_Products_2012-14.csv.
